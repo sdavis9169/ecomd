@@ -8,7 +8,6 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        App
         <Dashboard />
         <Form />
         <Header />

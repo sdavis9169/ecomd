@@ -10,7 +10,8 @@ const app = express();
 app.use(express.json());
 app.use(bodyParser.json());
 
-// app.get('/api/product')
+app.get('/api/inventory', controller.getAll)
+app.post('/api/product', controller.create)
 
 massive(CONNECTION_STRING)
     .then((dbInstance) => {

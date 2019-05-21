@@ -1,0 +1,12 @@
+.dashboard {
+    display: flex;
+    height: 300px;
+    width: 600px;
+    border: solid black 3px;
+
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+}
